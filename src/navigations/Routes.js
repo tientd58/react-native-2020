@@ -3,4 +3,5 @@ export const NavigationRoutes = {
   Home: 'Home',
   Login: 'Login',
   Profile: 'Profile',
+  Notification: 'Notification',
 };

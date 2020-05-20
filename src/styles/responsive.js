@@ -32,15 +32,14 @@ const guidelineBaseHeight = Platform.isPad
  * @param {number} moderateScale: dp for standard device, use scale value by horizontal base on factor
  * @param {number} factor: scale factor
  */
-class Responsive {
-  // return value scale by horizontal
-  static h = horizontalScale => (width / guidelineBaseWidth) * horizontalScale; // return value scale by vertical
 
-  static v = verticalScale => (height / guidelineBaseHeight) * verticalScale; // return value scale by horizontal base on factor
+// return value scale by horizontal
+export const h = horizontalScale =>
+  (width / guidelineBaseWidth) * horizontalScale; // return value scale by vertical
 
-  static m = (moderateScale, factor = 0.5) =>
-    moderateScale +
-    ((height / guidelineBaseWidth) * moderateScale - moderateScale) * factor;
-}
+export const v = verticalScale =>
+  (height / guidelineBaseHeight) * verticalScale; // return value scale by horizontal base on factor
 
-export default Responsive;
+export const m = (moderateScale, factor = 0.5) =>
+  moderateScale +
+  ((height / guidelineBaseWidth) * moderateScale - moderateScale) * factor;
