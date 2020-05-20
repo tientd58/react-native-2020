@@ -1,16 +1,17 @@
+import 'react-native-gesture-handler';
+
 import React from 'react';
-import {SafeAreaView, StatusBar} from 'react-native';
+import {View, StatusBar} from 'react-native';
 
-import {HelloWorld} from '_atoms';
+import AppNavigator from '_navigations';
 
-const App: () => React$Node = () => {
+const App = () => {
   return (
-    <>
+    // eslint-disable-next-line react-native/no-inline-styles
+    <View style={{flex: 1}}>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        <HelloWorld name="Kane" />
-      </SafeAreaView>
-    </>
+      <AppNavigator />
+    </View>
   );
 };
 

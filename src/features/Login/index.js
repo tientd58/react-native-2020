@@ -1,8 +1,8 @@
 import React from 'react';
-import {SafeAreaView, Text, TouchableHighlight} from 'react-native';
+import {SafeAreaView, Text, TouchableHighlight, StyleSheet} from 'react-native';
 
 const LoginScreen = ({navigation}) => (
-  <SafeAreaView>
+  <SafeAreaView style={styles.container}>
     <Text>Screen: Login</Text>
 
     <TouchableHighlight onPress={() => navigation.navigate('Home')}>
@@ -10,5 +10,13 @@ const LoginScreen = ({navigation}) => (
     </TouchableHighlight>
   </SafeAreaView>
 );
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+});
 
 export default LoginScreen;

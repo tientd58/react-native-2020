@@ -1,21 +1,18 @@
-import {createStackNavigator} from 'react-navigation';
+import React from 'react';
+import {createStackNavigator} from '@react-navigation/stack';
 
 import ProfileScreen from '_features/Profile';
 import {NavigationRoutes} from './Routes';
 
-const ProfileNavigator = createStackNavigator(
-  {
-    [NavigationRoutes.Profile]: {
-      screen: ProfileScreen,
-    },
-  },
-  {
-    initialRouteName: NavigationRoutes.Profile,
-    headerMode: 'screen',
-    navigationOptions: {
-      gesturesEnabled: false,
-    },
-  },
+const Stack = createStackNavigator();
+const ProfileNavigator = () => (
+  <Stack.Navigator initialRouteName={NavigationRoutes.Profile}>
+    <Stack.Screen
+      name={NavigationRoutes.Profile}
+      component={ProfileScreen}
+      options={{}}
+    />
+  </Stack.Navigator>
 );
 
 export default ProfileNavigator;
