@@ -8,7 +8,7 @@ const baseAxios = options => {
   };
 
   return axios.create({
-    baseURL: '',
+    baseURL: 'https://reqres.in/api',
     timeout: lodash.get(options, 'timeout', 30000),
     headers: defaultHeader,
   });
