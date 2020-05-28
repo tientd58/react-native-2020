@@ -1,5 +1,7 @@
 import axios from 'axios';
 import lodash from 'lodash';
+import env from 'react-native-config';
+console.log('env: ', env);
 
 const baseAxios = options => {
   const defaultHeader = {
@@ -8,7 +10,7 @@ const baseAxios = options => {
   };
 
   return axios.create({
-    baseURL: 'https://reqres.in/api',
+    baseURL: env.API_URL,
     timeout: lodash.get(options, 'timeout', 30000),
     headers: defaultHeader,
   });

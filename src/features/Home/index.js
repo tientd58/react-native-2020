@@ -2,9 +2,11 @@ import React, {useEffect} from 'react';
 import {connect} from 'react-redux';
 import {SafeAreaView, Text} from 'react-native';
 
-import {getTestRequest} from './actions';
+import {getTestRequest} from './State/actions';
+import {getHomeState} from './State/selectors';
 
 const HomeScreen = props => {
+  console.log('xxxprops: ', props);
   useEffect(() => {
     props.getTestRequest();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -17,8 +19,8 @@ const HomeScreen = props => {
   );
 };
 
-const mapStateToProps = ({homeReducer}) => ({
-  list: homeReducer.list,
+const mapStateToProps = state => ({
+  list: getHomeState(state),
 });
 
 const mapDispatchToProps = {
