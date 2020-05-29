@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>275888968990-1uamd3l6s22lscamou070tojcvd0g2he.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.275888968990-1uamd3l6s22lscamou070tojcvd0g2he</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDP9AmCqjBYxEohN4CleFN_2XcCMo5MtKQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>275888968990</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.getbee.getbeeApp</string>
+	<key>PROJECT_ID</key>
+	<string>getbee-7359d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>getbee-7359d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:275888968990:ios:3a3e4e51b78c40e3d2a50f</string>
+	<key>DATABASE_URL</key>
+	<string>https://getbee-7359d.firebaseio.com</string>
+</dict>
+</plist>
