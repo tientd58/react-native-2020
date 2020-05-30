@@ -1,4 +1,4 @@
-package com.getbee;
+package com.app.getbee;
 
 import android.app.Application;
 import android.content.Context;
@@ -10,7 +10,10 @@ import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.soloader.SoLoader;
 import java.lang.reflect.InvocationTargetException;
+import com.lugg.ReactNativeConfig.ReactNativeConfigPackage;
+
 import java.util.List;
+import java.util.Arrays;
 
 public class MainApplication extends Application implements ReactApplication {
 

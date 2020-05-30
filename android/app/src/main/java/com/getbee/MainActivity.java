@@ -1,4 +1,4 @@
-package com.getbee;
+package com.app.getbee;
 
 import com.facebook.react.ReactActivity;
 

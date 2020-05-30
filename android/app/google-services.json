@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "275888968990",
+    "firebase_url": "https://getbee-7359d.firebaseio.com",
+    "project_id": "getbee-7359d",
+    "storage_bucket": "getbee-7359d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275888968990:android:d9b780bd0fd9d3cdd2a50f",
+        "android_client_info": {
+          "package_name": "com.app.getbee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275888968990-hip8r3ir7evja6ebslajof0db13nfihc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.getbee",
+            "certificate_hash": "6bc4bf2c33c0bd6e68427958d6ca344150e15b39"
+          }
+        },
+        {
+          "client_id": "275888968990-id6psi2dkel3r7geihmbgltdppdip7du.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpEToBFW6nTfvlIfZsNyyDGKS3oIydvT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275888968990-id6psi2dkel3r7geihmbgltdppdip7du.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "275888968990-1uamd3l6s22lscamou070tojcvd0g2he.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.getbee.getbeeApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
